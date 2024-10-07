@@ -32,6 +32,9 @@ ALLOWED_HOSTS = ['*']
 load_dotenv()
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY')
 
+
+CSRF_TRUSTED_ORIGINS = ['https://personaliseddiet-fgk63j78.b4a.run']
+
 # Application definition
 
 INSTALLED_APPS = [
